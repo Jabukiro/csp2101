@@ -6,10 +6,10 @@ guess=60
 steps=0
 while [ $steps -lt 100 ]
 do
-	echo "$target | $guess --$low  $high--"
+	#echo "$target | $guess --$low  $high--"
 	steps=$((steps+1))
 	if (( guess == target )); then
-		echo "Found the guess in $steps Guesses. Beat me I dare ya!!"
+		echo "Found the age in $steps Guesses. Beat me I dare ya!!"
 		exit 0
 	elif (( guess < target )); then
 		low=$guess
