@@ -1,0 +1,6 @@
+--2020-05-07 06:31:56--  https://learn-ap-southeast-2-prod-fleet01-xythos.s3-ap-southeast-2.amazonaws.com/5de9b0c2d91ec/3771149?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27rectangle.txt
+Resolving learn-ap-southeast-2-prod-fleet01-xythos.s3-ap-southeast-2.amazonaws.com (learn-ap-southeast-2-prod-fleet01-xythos.s3-ap-southeast-2.amazonaws.com)... 52.95.128.90
+Connecting to learn-ap-southeast-2-prod-fleet01-xythos.s3-ap-southeast-2.amazonaws.com (learn-ap-southeast-2-prod-fleet01-xythos.s3-ap-southeast-2.amazonaws.com)|52.95.128.90|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2020-05-07 06:31:56 ERROR 400: Bad Request.
+
