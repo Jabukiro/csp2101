@@ -25,6 +25,7 @@ echo "Parsing input file..."
 #### Followed by one or more digits, followed by a comma -- x3
 #### Followed by any combination of letters and numbers.
 # 5 group patterns are then referenced in the substituing string.
+# Tabs are added for nice formating.
 # Finaly the result is printed and saved.
 
 output=$(cat $1 | sed -rnE 's/(^[[:alnum:]]+),([[:digit:]]+),([[:digit:]]+),([[:digit:]]+),([[:alpha:]]+)/Name: \1\tHeight: \2\tWidth: \3\tArea: \4\tColour: \5/p')
